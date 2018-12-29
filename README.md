@@ -9,6 +9,9 @@ copy the source and makefiles
 
 To build the new custom pass
 cd ~/build/lib/Transforms/sat1           ----> PATH2
+
+cp hello.export from ~/llvm/llvm/lib/Transforms/Hello/ to here and rename to sat1.exports
+
 $make   (source file should always be in PATH1....make will pick from there only)
 this will put the LLVMsat1.so  file in lib directory.
 
